@@ -3,5 +3,5 @@
 set -e
 set -x
 
-ruff check .
-ruff format . --check
+ruff check . --output-format=github
+ruff format . --check --diff
