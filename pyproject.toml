@@ -1,0 +1,22 @@
+[project]
+version = "2020.0.0"
+dependencies = [
+  "ruff",
+]
+
+[tool.poetry]
+
+
+[tool.ruff]
+
+[tool.ruff.lint]
+ignore = [
+  "E501", # Line too long
+]
+
+select = [
+  "E",   # pycodestyle
+  "F",   # pyflakes
+]
+
+[tool.ruff.lint.isort]
